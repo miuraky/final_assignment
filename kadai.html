@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High & Low Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #number {
+            font-size: 48px;
+            margin: 20px;
+        }
+
+        button {
+            font-size: 24px;
+            margin: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .restartBtn {
+            font-size: 24px;
+            margin: 20px auto; 
+            padding: 10px 20px;
+            cursor: pointer;
+            display: block; 
+        }
+    </style>
+</head>
+
+<body>
+    <h1>High & Low Game</h1>
+    <div id="number">?</div>
+    <button id="highBtn">High</button>
+    <button id="lowBtn">Low</button>
+    <p id="result"></p>
+    <p>連続正解数: <span id="score">0</span></p>
+    <button id="restartBtn" class="restartBtn" style="display:none;">もう一度プレイ</button>
+    <script type="text/javascript" src="kadai.js"></script>
+</body>
+
+</html>
